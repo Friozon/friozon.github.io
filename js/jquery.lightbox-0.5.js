@@ -20,7 +20,7 @@
 	 */
 	$.fn.lightBox = function(settings) {
 	    
-	    var basePath = './js/images/';
+	    var basePath = '/js/images/';
 	    
 	    if(settings && settings.locale && settings.local != ''){
 	        basePath += settings.locale + '/';
